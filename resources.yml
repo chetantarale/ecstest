@@ -11,4 +11,4 @@ resources:
     type: ecsCluster
     integration: dockerhub
     source:
-      name : "default" #name of the cluster we are deploying
+      name : "default" 
