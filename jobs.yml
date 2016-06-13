@@ -2,11 +2,11 @@ jobs:
   - name: ecstest101
     type: manifest
     steps:
-      - GET resource101
+      - GET: resource101
       
 
   - name : deployecs101
     type: ecsDeploy
     steps:
-      - GET ecstest101
-      - GET resource102
+      - GET: ecstest101
+      - GET: resource102
